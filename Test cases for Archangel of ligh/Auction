@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10002</projectId>
+    <projectKey>IIMN</projectKey>
+    <exportDate>2024-06-15 11:57:46 UTC</exportDate>
+    <folders>
+        <folder fullPath="Auction" index="5"/>
+        <folder fullPath="Auction/Page Artist information" index="2"/>
+        <folder fullPath="Auction/Page Auction Catalog" index="0"/>
+        <folder fullPath="Auction/Page Auction item page" index="1"/>
+    </folders>
+    <testCases>
+        <testCase id="156829197" key="IIMN-T88">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Malvina</createdBy>
+            <createdOn>2024-05-02 10:53:44 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that Artist Information page elements meets the design requirements]]></name>
+            <objective><![CDATA[<br><br><br>]]></objective>
+            <owner>712020:b5f07442-27af-4df4-ab37-0fdedc6ed544</owner>
+            <precondition><![CDATA[1. <span>The website&nbsp;<a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a> is opened at Auction Page</span><br>2. The site layouts are available]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Open the page Artist Information]]></description>
+                        <expectedResult><![CDATA[The Artist Information Page is available]]></expectedResult>
+                        <testData><![CDATA[<a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></testData>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Artist Information Page elements with the project layouts (Figma)]]></description>
+                        <expectedResult><![CDATA[The Artist Information Page elements meet the requirements specified in layouts]]></expectedResult>
+                        <testData><![CDATA[<a href="https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=1544-33700&amp;mode=design&amp;t=oWHN7PFrFeqHSCye-4 of the website">Figma</a>]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160085687" key="IIMN-T89">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 10:39:55 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction Catalog]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Auction Catalog" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[1) Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Auction&quot;&nbsp;]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction Catalog&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Auction Catalog&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Auction Catalog&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[<a href="https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0">Figma</a>​​​​]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160086289" key="IIMN-T90">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 10:54:21 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[negative]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction Catalog]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing redirection to the selected "Auction item page" in subsection "Auction Catalog"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Auction&quot;]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction Catalog&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160088083" key="IIMN-T91">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 11:15:11 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction Catalog]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Auction catalog " section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Auction&quot;]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction Catalog&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New auction items are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160089443" key="IIMN-T92">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 11:26:39 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Artist information]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Artist information" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[1) Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu and select the section &quot;Artist information&quot;]]></description>
+                        <expectedResult><![CDATA[Section &quot;Artist information&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Artist information&quot; elements with the project layouts in Figma ]]></description>
+                        <expectedResult><![CDATA[Page &quot;Artist Information&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[<a href="https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0">Figma</a>]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160092222" key="IIMN-T93">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 11:55:00 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Auction item page" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[1) Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu ]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Auction Item page&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Auction Item Page&quot; and layout in Figma are the same<br><br>]]></expectedResult>
+                        <testData><![CDATA[<a href="https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0">Figma</a>]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160094879" key="IIMN-T94">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-28 12:23:53 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the "Bid"  button on the Auction item page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[The website <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a> is opened.<br>User is log in to the page.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Make your bet using the &lsquo;+&rsquo; and &lsquo;-&rsquo; buttons<br>Press button &quot;Bid&quot; to confirm.&nbsp;]]></description>
+                        <expectedResult><![CDATA[Message appeared: &quot;Successfully placed a bid for &quot; Woman in an embroidered dress&quot;<br><br>If you bid was bigger than reserve price than message &quot;No need to bid. Your bid is winning!&quot; appere<br><h2><br></h2>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160384301" key="IIMN-T95">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 10:51:14 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the "Back"  button on the Auction item page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[The website&nbsp;<a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a> is opened.<br>User is log in to the page.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Push &quot;Back&quot; button]]></description>
+                        <expectedResult><![CDATA[Redirection to Auction Catalog page]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160384494" key="IIMN-T96">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 10:55:30 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the "See more"  button on the Auction item page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[The website&nbsp;<a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a> is opened.<br>User is log in to the page.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Push &quot;See more&quot; button]]></description>
+                        <expectedResult><![CDATA[Redirection to the All projects page]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160385052" key="IIMN-T97">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 11:04:29 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing functionality of pagination arrows for slider in "Auction item page" on the section "Auction"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[1) Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Scroll to bottom of page <br><br>Click on the selected arrow (right or left)]]></description>
+                        <expectedResult><![CDATA[Showing off more projects<br><br>The dot of actual page has blue coulor<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160385568" key="IIMN-T98">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 11:14:21 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the form with data on Auction item page with valid data.]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.<br><br>]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Fill in the valid data in the form check the check box and click &quot;Send&quot;]]></description>
+                        <expectedResult><![CDATA[Entered data disappeared and a massage with information &quot;Thank you for your message. It has been sent. &quot; Will appear under the respective fields.<br><br>]]></expectedResult>
+                        <testData><![CDATA[Галя Балувана<br>671111111<br>tesrgaliabaluvana@ua.ua]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Fill in the valid data in the form &quot;Стати волонтером&quot; &nbsp;and click &quot;Відправити&quot;]]></description>
+                        <expectedResult><![CDATA[Massage with information &quot;You must accept the terms and conditions before sending your message &quot; Will appear under the respective fields.<br><br>]]></expectedResult>
+                        <testData><![CDATA[Галя Балувана<br>671111111<br>tesrgaliabaluvana@ua.ua]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160386299" key="IIMN-T99">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 11:27:20 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[negative]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the form with data on Auction item page with an invalid data]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Select section &quot;Auction&quot; on &nbsp;navigation menu]]></description>
+                        <expectedResult><![CDATA[Section &quot;Auction catalogue&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected auction item &quot;More details&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to selected auction item page.]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Fill in the invalid data in the form check the check box and click &quot;Send&quot;]]></description>
+                        <expectedResult><![CDATA[Massage with information<br><br>&quot;Please enter your phone number..<br>Please provide the email address..<br>One or more fields contain incorrect data. Please check them and try again..&quot;<br><br>will appear under the respective fields]]></expectedResult>
+                        <testData><![CDATA[876545678 ;%:?(*?:%<br>6545:?*(*?:%<br>456789-0989856.876ро<br><br>]]></testData>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Fill in the &nbsp;invalid data in the form and click &quot;Send&quot;]]></description>
+                        <expectedResult><![CDATA[Massage with information<br><br>&quot;Please enter your phone number..<br>Please provide the email address..<br>One or more fields contain incorrect data. Please check them and try again..<br>You must accept the terms and conditions before sending your message..&quot;<br>will appear under the respective fields]]></expectedResult>
+                        <testData><![CDATA[876545678 ;%:?(*?:%<br>6545:?*(*?:%<br>456789-0989856.876ро]]></testData>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Leve the fields in the form blank, check the check box and click &quot;Send&quot;]]></description>
+                        <expectedResult><![CDATA[Massage with information<br><br>&quot;Please fill in this field.<br>One or more fields contain incorrect data. Please check them and try again..&quot;<br>will appear under the respective fields<br><br>]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Leаve the fields in the form blank and click &quot;Send&quot;]]></description>
+                        <expectedResult><![CDATA[Massage with information<br><br>&quot;Please fill in this field.<br>One or more fields contain incorrect data. Please check them and try again..<br>You must accept the terms and conditions before sending your message.. &quot;<br><br>will appear under the respective fields<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="160388255" key="IIMN-T100">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-05-31 11:55:24 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Auction/Page Auction item page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing redirecting to user acount  in the selected website (social network) to share information about the chosen auction]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/" id="isPasted">https://angel.it-volunteers.com/</a><br>Open selected Auction Item page on the &quot;Auction catalog&quot; section]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Click on the viber icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information via Viber messenger]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the Telegram icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information via Telegram messenger]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the Instagram icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information on Instagram]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Click on the YouTube icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information on Youtube]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Click on the Facebook icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information via Facebook]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Click on the Twitter icon]]></description>
+                        <expectedResult><![CDATA[Redirecting to the user's account with a proposal to share the auction information via Twitter<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
