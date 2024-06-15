@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<project>
+    <projectId>10002</projectId>
+    <projectKey>IIMN</projectKey>
+    <exportDate>2024-06-15 11:56:02 UTC</exportDate>
+    <folders>
+        <folder fullPath="Projects/ Page Help for IDPs" index="3"/>
+        <folder fullPath="Projects/Page All projects" index="0"/>
+        <folder fullPath="Projects/Page Help for artists" index="4"/>
+        <folder fullPath="Projects/Page Help for children" index="2"/>
+        <folder fullPath="Projects/Page Military" index="1"/>
+        <folder fullPath="Projects/Page Rescue for animals" index="5"/>
+        <folder fullPath="Projects/Project page" index="6"/>
+    </folders>
+    <testCases>
+        <testCase id="151386231" key="IIMN-T57">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 09:47:56 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page All projects]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Актуальні проєкти" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[1) Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі Проекти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Усі проекти&quot; is accessible<br><br>]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Усі проекти&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Усі проекти&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="151392500" key="IIMN-T58">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 11:09:05 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page All projects]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Актуальні проєкти " section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Актуальні проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Актуальні проекти&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="151392638" key="IIMN-T59">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 11:12:02 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page All projects]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Redirection to the selected project page in subsection "Усі проєкти"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Актуальні проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab<br><br><br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="151395019" key="IIMN-T60">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 11:48:16 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Military]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Військові" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[<br>Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Військові&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Допомога ЗСУ&quot; is accessible<br><br><br>]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Допомога ЗСУ&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Допомога ЗСУ&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="151395188" key="IIMN-T61">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 11:51:33 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Military]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Допомага ЗСУ " section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Військовим&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога ЗСУ&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Допомога ЗСУ&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="151395499" key="IIMN-T62">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-04 11:57:38 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Military]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Redirection to the  selected project page on subіsection "Військовим"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Військовим&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога ЗСУ&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152494515" key="IIMN-T63">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 09:58:29 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/ Page Help for IDPs]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Допомога ВПО" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[&nbsp;Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога ВПО&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Допомога ВПО&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Допомога ВПО&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Допомога ВПО&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152494963" key="IIMN-T64">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:03:18 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/ Page Help for IDPs]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Допомага ВПО " section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога ВПО&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога ВПО&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Допомога ВПО&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152495113" key="IIMN-T65">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:06:07 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/ Page Help for IDPs]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Redirection to the selected project page on subіsection "Допомога ВПО"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога ВПО&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога ВПО&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152495229" key="IIMN-T66">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:08:30 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for children]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Допомога дітям" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога дітям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Допомога дітям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Допомога дітям&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Допомога дітям&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152495586" key="IIMN-T67">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:13:14 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for children]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Допомага дітям" section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога дітям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога дітям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Допомога дітям&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152495648" key="IIMN-T68">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:15:28 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for children]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Redirection to the selected project page on subіsection "Допомога дітям"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога дітям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога дітям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152497412" key="IIMN-T69">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:39:55 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for artists]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Redirection to the selected project page on subіsection "Допомога митцям"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога митцям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога митцям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152497468" key="IIMN-T70">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:41:30 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for artists]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Допомага митцям" section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога митцям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Допомога митцям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Допомога митцям&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152497797" key="IIMN-T71">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:43:10 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Help for artists]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Допомога митцям" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Допомога митцям&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Допомога митцям&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Допомога митцям&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Допомога митцям&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152498014" key="IIMN-T72">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:48:43 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Rescue for animals]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that web page view "Порятунок тварин" meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Порятунок тварин&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Порятунок тварин&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page &quot;Порятунок тварин&quot; elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page &quot;Порятунок тварин&quot; and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152498217" key="IIMN-T73">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:50:48 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Rescue for animals]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the pagination functionality on "Порятунок тварин" section]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Порятунок тварин&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot;Порятунок тварин&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Scroll down of the section &quot;Порятунок тварин&quot; &nbsp;in the end of page]]></description>
+                        <expectedResult><![CDATA[Pagination is available]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the some pagination number]]></description>
+                        <expectedResult><![CDATA[New projects are displayed on the selected page<br>The open page number has turned blue]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="152498442" key="IIMN-T74">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-05 10:53:30 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Page Rescue for animals]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing redirection to the selected project page on subіsection "Порятунок тварин"]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Порятунок тварин&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &nbsp;&quot; &quot;Порятунок тварин&quot;&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend in new tab]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="153010721" key="IIMN-T75">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-09 09:59:44 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Ensure that project page meets the design requirements]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Військові&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Допомога ЗСУ&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Select projec on the page and Click button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Selected project page is accessible<br><br>]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Compare the Page elements with the project layouts in Figma]]></description>
+                        <expectedResult><![CDATA[Page and layout in Figma are the same]]></expectedResult>
+                        <testData><![CDATA[https://www.figma.com/file/rkKHVeY9D9QIylKNJuR6RA/%D0%90%D1%80%D1%85%D0%B0%D0%BD%D0%B3%D0%B5%D0%BB-%D1%81%D0%B2%D1%96%D1%82%D0%BB%D0%B0?type=design&amp;node-id=0-1&amp;mode=design&amp;t=L1eLhnngQptti650-0]]></testData>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="153012046" key="IIMN-T76">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-09 10:21:39 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing redirecting to user acount  in the selected website (social network) to share information about the chosen project.]]></name>
+            <objective><![CDATA[]]></objective>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a><br>Open selected project page on the &quot;Проєкти&quot; section]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Click on the viber icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the group &quot;МБФ&quot; Архангел Світла&quot;&quot; on Viber messenger]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the Telegram icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the group &quot;МБФ&quot; Архангел Світла&quot;&quot; on Telegram messenger]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the Instagram icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the page &quot;МБФ&quot; Архангел Світла&quot;&quot; on Instagram&nbsp;]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Click on the YouTube icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the &nbsp;page &quot;МБФ&quot; Архангел Світла&quot;&quot; Youtube&nbsp;]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Click on the Facebook icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the &nbsp;page &quot;МБФ&quot; Архангел Світла&quot;&quot; Facebook <br><br>]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Click on the Twitter icon<br><br>]]></description>
+                        <expectedResult><![CDATA[Redirection to the &nbsp;page &quot;МБФ&quot; Архангел Світла&quot;&quot;Twitter<br><br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="154868698" key="IIMN-T84">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-23 08:00:28 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the "Допомогти"  button on the Project Page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[The website <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a> is opened.]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі Проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Усі проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend ]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Click on the opened project button &quot;Допомогти&quot;]]></description>
+                        <expectedResult><![CDATA[&nbsp;Payment page is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="154869545" key="IIMN-T85">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-23 08:12:41 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the  form "Support this project"  for people who are abroad on Project Page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі Проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Усі проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend ]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Scroll to the middle of the project page and select the currency by clicking on the arrow on the right ]]></description>
+                        <expectedResult><![CDATA[The transfer details in the selected currency will be shown]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="154871808" key="IIMN-T86">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-23 08:26:49 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing redirecting to payment methods on Project Page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[Open Home page <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a><br><br>]]></precondition>
+            <priority><![CDATA[High]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі Проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Усі проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot; ]]></description>
+                        <expectedResult><![CDATA[Redirection to project page<br>Project page opend]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and select &nbsp;metod of payments &nbsp;&quot;monobank&quot;&nbsp;]]></description>
+                        <expectedResult><![CDATA[Payment page &quot;monobank&quot; is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                    <step index="3">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and select metod of payments &nbsp;&quot;Privat Bank&quot;]]></description>
+                        <expectedResult><![CDATA[Payment page &quot;Privat Bank&quot; is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                    <step index="4">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and select metod of payments &nbsp;&quot;Pay Pal&quot;]]></description>
+                        <expectedResult><![CDATA[Payment page &quot;Pay Pal&quot; is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                    <step index="5">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and select &quot;PATREON&quot;]]></description>
+                        <expectedResult><![CDATA[&nbsp;Page &quot;PATREON&quot; is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                    <step index="6">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and select metod of payments &quot;FONDY&quot;]]></description>
+                        <expectedResult><![CDATA[Payment page &quot;FONDY&quot; is opend in new tab<br><br>]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+        <testCase id="154872630" key="IIMN-T87">
+            <attachments/>
+            <confluencePageLinks/>
+            <createdBy>Marta Morincewa</createdBy>
+            <createdOn>2024-04-23 08:43:41 UTC</createdOn>
+            <customFields>
+                <customField name="Behavior" type="SINGLE_CHOICE_SELECT_LIST">
+                    <value><![CDATA[positive]]></value>
+                </customField>
+            </customFields>
+            <folder><![CDATA[Projects/Project page]]></folder>
+            <issues/>
+            <labels/>
+            <name><![CDATA[Testing the functionality of the "Назад"  button on the Project Page]]></name>
+            <owner>63889bfe9e48f2b9a61557a9</owner>
+            <precondition><![CDATA[The website <a href="https://angel.it-volunteers.com/">https://angel.it-volunteers.com/</a> is opened.<br><br>]]></precondition>
+            <priority><![CDATA[Normal]]></priority>
+            <status><![CDATA[Draft]]></status>
+            <parameters/>
+            <testDataWrapper/>
+            <testScript type="steps">
+                <steps>
+                    <step index="0">
+                        <customFields/>
+                        <description><![CDATA[Hover the cursor on the navigation menu &quot;Проєкти&quot; then select the &quot;Усі Проєкти&quot; section]]></description>
+                        <expectedResult><![CDATA[Section &quot;Усі проєкти&quot; is accessible]]></expectedResult>
+                    </step>
+                    <step index="1">
+                        <customFields/>
+                        <description><![CDATA[Click on the selected project button &quot;Підтримати&quot;]]></description>
+                        <expectedResult><![CDATA[The transfer details in the selected currency will be shown]]></expectedResult>
+                    </step>
+                    <step index="2">
+                        <customFields/>
+                        <description><![CDATA[Scrool to the end of Project page and push button &quot;Назад&quot;]]></description>
+                        <expectedResult><![CDATA[Redirection to the page &quot;All Projects&quot;]]></expectedResult>
+                    </step>
+                </steps>
+            </testScript>
+        </testCase>
+    </testCases>
+</project>
